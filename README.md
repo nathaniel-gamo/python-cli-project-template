@@ -43,6 +43,15 @@ pip-review --auto
 pip-review --interactive
 ```
 
+### Ruff
+```bash
+ruff check .
+ruff check . --fix
+
+ruff format --check .
+ruff format .
+```
+
 ### Build a package using build
 ```bash
 pip install build
