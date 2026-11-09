@@ -18,8 +18,8 @@ def _get_dotenv_path() -> str:
 
 
 def load_config(
-        dotenv_path: str = "", 
-        dotenv_only: bool = True) -> dict[str, str | None]:
+    dotenv_path: str = "", dotenv_only: bool = True
+) -> dict[str, str | None]:
 
     dotenv_path = (
         dotenv_path
